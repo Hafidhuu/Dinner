@@ -1,0 +1,41 @@
+.site-name {
+  text-align: center;
+  background-color: #4a4f56;
+  padding: 15px;
+
+  color: #eb7e7f;
+}
+.dinners {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.dinner {
+  background-color: #88839e;
+  padding: 15px;
+}
+
+.footer {
+  text-align: center;
+  padding: 25px;
+  color: #eb7e7f;
+  background-color: #4a4f56;
+}
+
+input:checked + label {
+  background-color: lightgreen;
+}
+body {
+  background-color: #3b3f45;
+  padding: 10;
+}
+.container {
+  width: 660px;
+  margin: 0 auto;
+}
+
+.dinner:nth-child(2n-1) {
+  background-color: #7a7593;
+}
+.dinner:hover {
+  border: 2px solid white;
+}
